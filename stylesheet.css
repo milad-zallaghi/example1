@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.menu{
+    float: left;
+    width:20%;
+    text-align: center;
+
+}
+
+.menu a{
+    background-color: black;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color:white;
+
+}
+
+.main{
+    float:left;
+    width: 60%;
+    padding:0 20px;
+}
+.right{
+    background-color:cornflowerblue;
+    float:right;
+    padding: 15px;
+    margin-top: 7px;
+    width: 20%;
+    text-align: center;
+}
+@media only screen and(max-width:620px){
+    .menu .main .right{
+        width: 100%;
+    }
+}
